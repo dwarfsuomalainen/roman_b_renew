@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('../images/paper-texture.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sans-serif', sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 4rem;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #222;
+}
+
+.cv {
+  font-family: 'Serif', serif;
+}
+
+.projects {
+  font-family: 'HandwrittenFont', cursive;
+}
