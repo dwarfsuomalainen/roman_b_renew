@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Thin Pencil Handwriting';
+  src: url('../fonts/ThinPencilHandwriting.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -5,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Sans-serif', sans-serif;
+  font-family: 'ThinPencilHandwriting', sans-serif;
 }
 
 main {
@@ -20,9 +27,9 @@ main {
 }
 
 .cv {
-  font-family: 'Serif', serif;
+  font-family: 'ThinPencilHandwriting', sans-serif;
 }
 
 .projects {
-  font-family: 'HandwrittenFont', cursive;
+  font-family: 'ThinPencilHandwriting', sans-serif;
 }
