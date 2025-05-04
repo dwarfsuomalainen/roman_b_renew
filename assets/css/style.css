@@ -205,6 +205,17 @@ main p {
   font-size: 1rem;
 }
 
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-link:hover .project-card {
+  transform: scale(1.02); /* or any hover effect */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
 .pdf {
   width: 100%;
   max-width: 800px;
