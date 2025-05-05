@@ -198,14 +198,14 @@ main p {
 }
 
 .project-card img {
-  height: 250px;
+  height: 230px;
   width: 100%;
   object-fit: cover;
   border-radius: 6px;
 }
 
 .project-card h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 0.8rem 0 0.4rem;
 }
 
@@ -273,13 +273,18 @@ main p {
   }
   
   .pdf {
-    width: 100%;
-    max-width: 800px;
-    height: calc(100vh - 120px);
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    overflow: auto;
+    display: none;
   }
+
+  .download-link {
+    display: inline-block;
+    font-size: 1.2rem;
+    background: rgba(90, 125, 154, 0.05);
+    padding: 0.8rem 1.2rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+  }
+}
 
   .project-card h2 {
     font-size: 1.1rem;
