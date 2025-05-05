@@ -169,6 +169,7 @@ main p {
 .projects-container h1 {
   text-align: center;
   margin-bottom: 2rem;
+
 }
 
 .projects-grid {
@@ -248,16 +249,17 @@ main p {
     overflow: auto;
   }
   .cv-container {
-    padding-top: 140px;
+    padding-top: 40px;
   }
   
 }
 @media (max-width: 600px) {
   .projects-container {
     padding: 1rem;
+    padding-top: 50px;
   }
   .cv-container {
-    padding-top: 140px;
+    padding-top: 40px;
   }
   
   .pdf {
@@ -290,13 +292,14 @@ main p {
     grid-template-columns: 1fr;
   }
   .cv-container {
-    padding-top: 140px;
+    padding-top: 40px;
   }
   .projects-container {
     padding: 1rem;
+    padding-top: 50px;
   }
   .cv-container {
-    padding-top: 140px;
+    padding-top: 40px;
   }
   
   .pdf {
