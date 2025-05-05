@@ -245,12 +245,21 @@ main p {
     border: 1px solid #ccc;
     margin-bottom: 20px;
     border-radius: 12px;
+    overflow: auto;
   }
+  .cv-container {
+    padding-top: 140px;
+  }
+  
 }
 @media (max-width: 600px) {
   .projects-container {
     padding: 1rem;
   }
+  .cv-container {
+    padding-top: 140px;
+  }
+  
   .pdf {
     width: 100%;
     max-width: 800px;
@@ -258,6 +267,7 @@ main p {
     border: 1px solid #ccc;
     border-radius: 12px;
     margin-bottom: 20px;
+    overflow: auto;
   }
 
   .project-card h2 {
@@ -278,5 +288,34 @@ main p {
 @media (max-width: 480px) {
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+  .cv-container {
+    padding-top: 140px;
+  }
+  .projects-container {
+    padding: 1rem;
+  }
+  .cv-container {
+    padding-top: 140px;
+  }
+  
+  .pdf {
+    width: 100%;
+    max-width: 800px;
+    height: 90vh;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+
+  .project-card h2 {
+    font-size: 1.1rem;
+    margin: 0.8rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+    margin: 0 0.8rem 1rem;
   }
 }
