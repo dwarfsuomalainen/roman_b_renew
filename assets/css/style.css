@@ -213,8 +213,10 @@ main p {
 }
 
 .project-link:hover .project-card {
-  transform: scale(1.02); /* or any hover effect */
+  transform: scale(1.02);
   box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  background: rgba(90, 125, 154, 0.15);
+  transition: background 0.2s;
 }
 
 .pdf {
